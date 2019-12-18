@@ -9,7 +9,7 @@ The model uses an agent class that includes several functions that the sheep fol
 
 The model runs through a GUI using the tkinter module. The user can run the model and exit the model using the options tab in the model window.
 
-Files indluded in model
+Files included in model
 -------
 * modelFramework
 * agentFramework
@@ -32,4 +32,4 @@ This file contains the agent class and all of the actions that the agents go thr
 
 in.txt
 -------
-This is a text file that contains the environment data that the sheep move across and consume.
+This is a text file that contains the environmental data that the sheep move across and consume.
