@@ -9,6 +9,9 @@ The model uses an agent class found within the agentFramework that includes seve
 
 The model runs through a GUI using the tkinter module. The user can run the model and exit the model using the options tab in the model window.
 
+Model Files Location
+------
+The files required for the model can be found [here](https://github.com/CamMiles00/agentBasedModel)
 
 Files included in model
 -------
@@ -35,6 +38,4 @@ in.txt
 -------
 This is a text file that contains the environmental data over which the sheep move and consume food.
 
-Model Files Location
-------
-The files required for the model can be found [here](https://github.com/CamMiles00/agentBasedModel)
+
