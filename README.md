@@ -36,5 +36,4 @@ This is a text file that contains the environmental data over which the sheep mo
 
 Model Files Location
 ------
-The files required for the model are located at this link:
-https://github.com/CamMiles00/agentBasedModel
+The files required for the model can be found [here](https://github.com/CamMiles00/agentBasedModel)
