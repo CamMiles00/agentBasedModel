@@ -39,4 +39,5 @@ in.txt
 This is a text file that contains the environmental data over which the sheep move and consume food.
 
 **References**
+
 Theme used: Jekyll Tactile theme
