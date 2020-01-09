@@ -61,43 +61,13 @@ class Agent():
             #print("sharing " + str(dist) + " " + str(ave))
     pass
 
-    def disease(self, infection):        
-        for agent in self.agents:
-            dist = self.distanceBetween(agent)
-            if dist <= infectDist and random.random() <= 0.5 and agent.disease == 1:
-                self.infection = 1  
-        while self.timeInfected <= 10:
-            self.store = 0            
-            self.environment[self._y][self._x] += self.store
-            self.timeInfected += 1
-    pass
-
-    def starve(self):
-        if self.store == 0 and self.timeInfected >= 10:
-            self.starvation = 1                          
-    pass
-
-""" 
-    def disease(self, infection):        
-        for agent in self.agents:            
-            if random.random() <= 0.2:
-                self.infection = 1
-        while self.infection == 1:
-            self.store = 0            
-            self.environment[self._y][self._x] += self.store
-            self.timeInfected += 1
-    pass
-            
-    def diseaseSpread(self, agent):
-        dist = self.distanceBetween(agent)
-        if dist <= infectDist:
-            self.infection = 1
-    pass    
-
-    
-"""
-
-    
-
-    
-        
+    def disease(self):                 
+        if random.random() <= 0.05:
+            self.infection = 1  
+            while self.timeInfected <= 10:
+                self.store = 0            
+                self.environment[self._y][self._x] += self.store
+                self.timeInfected += 1
+            else:
+                self.starvation = 1
+    pass        

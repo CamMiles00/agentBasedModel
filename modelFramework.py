@@ -3,6 +3,7 @@ import matplotlib.pyplot
 import matplotlib.animation
 import agentFramework as afw
 import csv
+import random
 import tkinter
 from tkinter import * 
 matplotlib.use('TkAgg')
@@ -24,9 +25,8 @@ ax.set_autoscale_on(False)
 
 #Set model parameters   
 numOfAgents = 25
-numOfIterations = 150
+numOfIterations = 50
 neighbourhood = 20
-infectDist = 10
 
 #Create the agents
 agents = []
@@ -45,7 +45,7 @@ def update(frame_number):
             agents[i].move()
             agents[i].eat()
             agents[i].shareWithNeighbours(neighbourhood)
-            agents[i].disease(infectDist)
+            agents[i].disease()            
             if agents[i].infection == 0:
                 matplotlib.pyplot.scatter(agents[i].x,agents[i].y, color = 'white')
             else:
@@ -55,9 +55,9 @@ def update(frame_number):
         matplotlib.pyplot.xlim(0, len(environment))
         matplotlib.pyplot.ylim(0, len(environment))
         matplotlib.pyplot.imshow(environment)
-    #if random.random() < 0.1:
+    #if random.random() < 0.05:
         #carry_on = False
-        #print("stopping condition")
+        #print("Random stopping condition")
 
 #Animate model            
 def gen_function(b = [0]):
