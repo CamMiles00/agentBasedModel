@@ -33,3 +33,8 @@ This file contains the agent class and all of the actions that the agents go thr
 in.txt
 -------
 This is a text file that contains the environmental data over which the sheep move and consume food.
+
+File Location
+------
+The files are located at this link:
+https://github.com/CamMiles00/agentBasedModel
