@@ -31,7 +31,7 @@ This file contains the agent class and all of the actions that the agents go thr
 * eating from the environment
 * sharing food between sheep who are located close to on another
 * random chance of disease 
-* starvation if disease persists for a certain time
+* starvation if disease persists for a number of days
 
 in.txt
 -------
