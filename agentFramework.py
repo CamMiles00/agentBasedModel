@@ -1,5 +1,4 @@
 import random
-infectDist = 20
 
 class Agent():
     def __init__(self, environment, agents):
