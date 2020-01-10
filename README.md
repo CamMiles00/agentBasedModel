@@ -1,7 +1,7 @@
 Agent Based Model - Last Sheep Standing
 =======
 
-The files in this repository form an Agent based model, the output of practical work for module GEOG5990M. The model siumaltes the movement of agents (sheep) through an environment. Their initial start point is random and so is the direction of their movement. Whilst moving about the environment they have a small chance of contracting a deadly disease. Once they are infected it is only a matter of time before they die. 
+The files in this repository form an Agent based model, the output of practical work for module GEOG5990M. The model simulates the movement of agents (sheep) through an environment. Their initial start point and direction of movement is randomly generated. Whilst moving about the environment they have a small chance of contracting a deadly disease. Once they are infected it is only a matter of time before they die. 
 
 It is possible to adjust the number of sheep and the number of days the model simulates using the numOfAgents and numOfIterations variables. The default values are 25 sheep and 50 days.
 
