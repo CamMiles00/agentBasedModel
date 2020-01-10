@@ -7,7 +7,7 @@ It is possible to adjust the number of sheep and the number of days the model si
 
 The model uses an agent class found within the agentFramework that includes several functions that the sheep follow. The model runs through a GUI using the tkinter module. The user can run the model and exit the model using the options tab in the model window.
 
-![](Model_GUI.PNG)
+![](Model_GUI.png)
 
 Model Files Location
 ------
