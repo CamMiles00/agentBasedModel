@@ -9,7 +9,7 @@ The model uses an agent class found within the agentFramework that includes seve
 
 The model runs through a GUI using the tkinter module. The user can run the model and exit the model using the options tab in the model window.
 
-![Model Window] (Capture2.PNG)
+![](Capture2.PNG)
 
 Model Files Location
 ------
