@@ -1,4 +1,4 @@
-Agent Based Model - Last Sheep Standing
+Last Sheep Standing
 =======
 
 The files in this repository form an Agent based model, the output of practical work for module GEOG5990M. The model simulates the movement of agents (sheep) through an environment. Their initial start point and direction of movement is randomly generated. Whilst moving about the environment they have a small chance of contracting a deadly disease. Once they are infected it is only a matter of time before they die. All the sheep start as white dots moving around the landscape and turn red when they become infected eventually becoming a black x when they die.
