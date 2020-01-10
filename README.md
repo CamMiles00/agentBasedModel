@@ -40,4 +40,4 @@ This is a text file that contains the environmental data over which the sheep mo
 
 **References**
 
-Theme used: Jekyll Tactile theme
+Website theme used: Jekyll Tactile theme
