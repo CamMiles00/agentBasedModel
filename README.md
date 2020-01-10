@@ -1,25 +1,26 @@
 Agent Based Model - Last Sheep Standing
 =======
 
-The files in this repository form an Agent based model, the output of practical work for module GEOG5990M. The model simulates the movement of agents (sheep) through an environment. Their initial start point and direction of movement is randomly generated. Whilst moving about the environment they have a small chance of contracting a deadly disease. Once they are infected it is only a matter of time before they die. 
+The files in this repository form an Agent based model, the output of practical work for module GEOG5990M. The model simulates the movement of agents (sheep) through an environment. Their initial start point and direction of movement is randomly generated. Whilst moving about the environment they have a small chance of contracting a deadly disease. Once they are infected it is only a matter of time before they die. All the sheep start as white dots moving around the landscape and turn red when they become infected eventually becoming a black x when they die.
 
 It is possible to adjust the number of sheep and the number of days the model simulates using the numOfAgents and numOfIterations variables. The default values are 25 sheep and 50 days.
 
-The model uses an agent class found within the agentFramework that includes several functions that the sheep follow.
-
-The model runs through a GUI using the tkinter module. The user can run the model and exit the model using the options tab in the model window.
+The model uses an agent class found within the agentFramework that includes several functions that the sheep follow. The model runs through a GUI using the tkinter module. The user can run the model and exit the model using the options tab in the model window.
 
 ![](Capture2.PNG)
 
 Model Files Location
 ------
-The files required for the model can be found [here](https://github.com/CamMiles00/agentBasedModel)
+The following links take you to the raw code required for the model:
 
-Files included in model
--------
-* modelFramework
-* agentFramework
-* in.txt
+* [modelFramework](https://raw.githubusercontent.com/CamMiles00/agentBasedModel/master/modelFramework.py)
+* [agentFramework](https://raw.githubusercontent.com/CamMiles00/agentBasedModel/master/agentFramework.py)
+* [Enironment Data](https://raw.githubusercontent.com/CamMiles00/agentBasedModel/master/in.txt)
+
+The files can also be downloaded from GitHub [here](https://github.com/CamMiles00/agentBasedModel)
+
+Description of files included in model
+=======
 
 modelFramework
 -------
